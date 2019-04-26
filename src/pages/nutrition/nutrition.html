@@ -1,0 +1,12 @@
+<ion-header>
+  <app-header title="Nutrition"></app-header>
+</ion-header>
+
+
+<ion-content class="nutrition-bg">
+  <!-- Title Categories -->
+  <title-component title="Categories"></title-component>
+
+  <!-- Card Categories -->
+  <category-card [items]="nutritions$ | async" goTo="RecipesPage"></category-card>
+</ion-content>

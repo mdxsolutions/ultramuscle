@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Chicken",
+        "image": "chicken.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Seafood",
+        "image": "seafood.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Pork",
+        "image": "pork.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Poultry",
+        "image": "poultry.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Vegetarian",
+        "image": "vegetarian.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Vegan",
+        "image": "vegan.jpg"
+    }
+]

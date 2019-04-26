@@ -1,0 +1,13 @@
+<ion-card no-padding class="bg-transparent text-white">
+  <img [src]="blog.image" />
+  <ion-card-content>
+    <ion-card-title text-center class="text-white">
+        {{ blog.title }}
+    </ion-card-title>
+    <p class="text-white">
+        {{ blog.shortDescription }}
+    </p>
+    <hr>
+    <button (click)="goToBlogPageDetail(blog)" ion-button block color="danger">View</button>
+  </ion-card-content>
+</ion-card>

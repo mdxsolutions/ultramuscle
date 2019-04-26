@@ -1,0 +1,30 @@
+<ion-menu id="main" [content]="content">
+    <ion-header>
+        <div class="menu heading">
+            <ion-list *ngIf="auth.user$ | async as user">
+                <ion-item menuClose (click)="goToProfilePage()">
+                    <!-- <ion-avatar item-start>
+                        <img src="assets/imgs/profile.jpg">
+                    </ion-avatar> -->
+                    <h2 class="text-white">{{ user.displayName }}</h2>
+                    <p class="text-white">View Profile</p>
+                </ion-item>
+            </ion-list>
+        </div>
+    </ion-header>
+
+    <ion-content class="menu" padding>
+        <ion-list no-lines class="text-white">
+            <ion-item menuClose (click)="goToItemPage(item.id)" *ngFor="let item of elements">
+                <ion-icon [name]="item.icon" item-start class="text-theme"></ion-icon>
+                {{ item.name }}
+            </ion-item>
+            <ion-item menuClose (click)="signOut()">
+                <ion-icon name="md-log-out" item-start class="text-theme"></ion-icon>
+                Logout
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-menu>
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

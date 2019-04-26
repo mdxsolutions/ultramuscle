@@ -1,0 +1,14 @@
+<ion-header>
+  <app-header title="Blogs"></app-header>
+</ion-header>
+
+
+<ion-content class="login-bg">
+  <ion-grid>
+    <ion-row>
+      <ion-col col-12 no-padding>
+        <blog-card [blog]="blog" *ngFor="let blog of blogs"></blog-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

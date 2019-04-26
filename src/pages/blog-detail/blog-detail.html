@@ -1,0 +1,20 @@
+<ion-header>
+  <app-header title="Blog"></app-header>
+</ion-header>
+
+
+<ion-content class="login-bg">
+
+  <ion-card class="fadeInUp animated bg-transparent">
+    <ion-card-content>
+      <div>
+        <figure>
+          <img [src]="blog.image" alt="">
+        </figure>
+        <h2 class="text-white">{{ blog.title }}</h2>
+        <div [innerHTML]="blog.description | domsecure" style="margin-top:1rem;" class="text-white"></div>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

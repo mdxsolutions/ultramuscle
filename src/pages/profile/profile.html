@@ -1,0 +1,60 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Profile
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content class="login-bg" padding>
+    <!-- <div class="img-update fadeInUp animated">
+        <figure>
+            <img src="assets/imgs/profile.jpg" class="profile">
+            <ion-icon name="md-camera"></ion-icon>
+        </figure>
+    </div> -->
+    <div *ngIf="auth.user$ | async">
+        <div class="theme-input" *ngIf="auth.user$ | async as user">
+            <form [formGroup]="profileForm">
+                <ion-list class="fadeInUp animated delay-2 um-bg">
+                    <ion-item margin-bottom [ngClass]="{ invalid: displayNameErrors.hasError('*', ['touched']) }">
+                        <ion-input type="text" formControlName="displayName" placeholder="Name" [value]="user.displayName"></ion-input>
+                    </ion-item>
+
+                    <div margin-bottom ngxErrors="displayName" #displayNameErrors="ngxErrors">
+                        <div [ngxError]="['displayName', 'required']" [when]="['touched']" class="text-white">
+                            It should be a valid name
+                        </div>
+                    </div>
+                </ion-list>
+                <ion-list class="fadeInUp animated delay-4 um-bg">
+                    <ion-item margin-bottom [ngClass]="{ invalid: displayTargetErrors.hasError('*', ['touched']) }">
+                        <ion-select formControlName="target" placeholder="Target" value="Loose Weight">
+                            <ion-option [value]="target.name" *ngFor="let target of targets">{{ target.name }}</ion-option>
+                        </ion-select>
+                    </ion-item>
+
+                    <div margin-bottom ngxErrors="target" #displayTargetErrors="ngxErrors">
+                        <div [ngxError]="['target', 'required']" [when]="['touched']" class="text-white">
+                            It should be a valid target
+                        </div>
+                    </div>
+                </ion-list>
+                <ion-list class="fadeInUp animated delay-6 um-bg">
+                    <ion-item>
+                        <ion-label>Email Address</ion-label>
+                        <ion-input type="email" placeholder="Email" [value]="user.email" readonly>
+                        </ion-input>
+                    </ion-item>
+                </ion-list>
+            </form>
+        </div>
+    </div>
+    <br><br><br>
+    <p class="fixed">
+        <button [disabled]="profileForm.invalid" full ion-button color="danger" (click)="updateProfile()">
+            Update Profile
+        </button>
+    </p>
+</ion-content>

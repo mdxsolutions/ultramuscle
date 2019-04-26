@@ -1,0 +1,29 @@
+page-workout-detail {
+    .segment-ios 
+    .segment-button {
+        border-color: #f53d3d!important;
+        color: #f7f1f1!important;
+    }
+    .segment-ios 
+    .segment-button.segment-activated {
+        background-color: #f53d3d!important;
+    }
+    // .swiper-slide img {
+    //     width: 100%;
+    //     max-width: 100%;
+    //     height: auto;
+    //     max-height: 100%;
+    // }
+
+    .levelSelect{
+        max-width: 100% !important;
+    }
+
+    .item {
+        background: #f53d3d !important;
+        color: white;
+    }
+    .select-icon-inner {
+        color: white!important;
+    }
+}

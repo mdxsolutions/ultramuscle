@@ -1,0 +1,9 @@
+<ion-card class="fadeInUp animated bg-transparent" (click)="goToWorkoutDetailPage(workout)">
+  <ion-card-content>
+    <figure><img [src]="workout.icon"></figure>
+    <div>
+      <h2 class="text-white">{{ workout.name }}</h2>
+      <p style="margin-top:1rem;" class="text-light">{{ workout.name }} Guide</p>
+    </div>
+  </ion-card-content>
+</ion-card>

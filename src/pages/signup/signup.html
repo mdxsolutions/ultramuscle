@@ -1,0 +1,179 @@
+<ion-content padding class="login-bg">
+  <div margin-bottom class="fadeInUp animated login-box">
+    <img
+      class="logo"
+      src="assets/imgs/logo.png"
+      alt="Ultra lifestyle company"
+    />
+    <div class="theme-input">
+      <form [formGroup]="registerForm">
+        <ion-list>
+          <ion-item
+            margin-bottom
+            [ngClass]="{
+              invalid: displayNameErrors.hasError('*', ['touched'])
+            }"
+          >
+            <ion-input
+              type="text"
+              formControlName="displayName"
+              placeholder="Name"
+            ></ion-input>
+          </ion-item>
+
+          <div
+            margin-bottom
+            ngxErrors="displayName"
+            #displayNameErrors="ngxErrors"
+          >
+            <div
+              [ngxError]="['displayName', 'required']"
+              [when]="['touched']"
+              class="text-white"
+            >
+              It should be a valid name
+            </div>
+          </div>
+
+          <ion-item
+            margin-bottom
+            [ngClass]="{
+              invalid: displayTargetErrors.hasError('*', ['touched'])
+            }"
+          >
+            <ion-select formControlName="target" placeholder="Target">
+              <ion-option value="loose weight">Loose Weight</ion-option>
+              <ion-option value="build muscle">Build Muscle</ion-option>
+              <ion-option value="maintenance">Maintenance</ion-option>
+            </ion-select>
+          </ion-item>
+
+          <div
+            margin-bottom
+            ngxErrors="target"
+            #displayTargetErrors="ngxErrors"
+          >
+            <div
+              [ngxError]="['target', 'required']"
+              [when]="['touched']"
+              class="text-white"
+            >
+              It should be a valid target
+            </div>
+          </div>
+          <ion-item
+            margin-bottom
+            [ngClass]="{
+              invalid: displayEmailErrors.hasError('*', ['touched'])
+            }"
+          >
+            <ion-input
+              type="email"
+              formControlName="email"
+              placeholder="Email Address"
+            ></ion-input>
+          </ion-item>
+
+          <div margin-bottom ngxErrors="email" #displayEmailErrors="ngxErrors">
+            <div
+              [ngxError]="['email', 'required']"
+              [when]="['touched']"
+              class="text-white"
+            >
+              It should be a valid email
+            </div>
+          </div>
+
+          <ion-item
+            margin-bottom
+            [ngClass]="{
+              invalid: displayPasswordErrors.hasError('*', ['touched'])
+            }"
+          >
+            <ion-input
+              type="password"
+              formControlName="password"
+              placeholder="Password"
+            ></ion-input>
+          </ion-item>
+
+          <div
+            margin-bottom
+            ngxErrors="password"
+            #displayPasswordErrors="ngxErrors"
+          >
+            <div
+              [ngxError]="['password', 'required']"
+              [when]="['touched']"
+              class="text-white"
+            >
+              It should be a valid password
+            </div>
+          </div>
+
+          <ion-item
+            margin-bottom
+            [ngClass]="{
+              invalid: displayPasswordConfirmationErrors.hasError('*', [
+                'touched'
+              ])
+            }"
+          >
+            <ion-input
+              type="password"
+              formControlName="passwordConfirmation"
+              placeholder="Confirm Password"
+            ></ion-input>
+          </ion-item>
+
+          <div
+            margin-bottom
+            ngxErrors="passwordConfirmation"
+            #displayPasswordConfirmationErrors="ngxErrors"
+          >
+            <div
+              [ngxError]="['passwordConfirmation', 'required']"
+              [when]="['touched']"
+              class="text-white"
+            >
+              It should be a valid password
+            </div>
+          </div>
+        </ion-list>
+      </form>
+    </div>
+    <ion-row class="um-button" text-center>
+      <ion-col>
+        <button
+          [disabled]="registerForm.invalid"
+          ion-button
+          (click)="createUser(registerForm)"
+          class="transparent"
+        >
+          Create Account
+        </button>
+      </ion-col>
+    </ion-row>
+
+    <!-- <ion-row class="um-button" margin-top>
+          <ion-col col-6>
+              <button ion-button full item-end icon-left color="facebook" class="no-transparent">
+                  <ion-icon name="logo-facebook"></ion-icon>Facebook
+              </button>
+          </ion-col>
+          <ion-col col-6>
+              <button ion-button full icon-left color="google" class="no-transparent">
+                  <ion-icon name="logo-google"></ion-icon>Google
+              </button>
+          </ion-col>
+      </ion-row> -->
+    <!-- <p text-center class="text-white">By signing up, I agree with the <br><span class="text-theme">Tearm &
+              conditionos</span></p> -->
+    <p text-center class="text-white text-center">
+      Already have an account?
+      <a class="text-theme text-no-link" navPush="SigninPage">
+        Sign In
+      </a>
+    </p>
+  </div>
+</ion-content>

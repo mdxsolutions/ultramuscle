@@ -1,0 +1,28 @@
+<ion-header>
+    <app-header title="Dashboard"></app-header>
+</ion-header>
+<ion-content class="dashboard-bg">
+    <!-- My Workouts -->
+    <div>
+        <title-component title="My workouts"></title-component>
+        <workout-card [workout]="workout" *ngFor="let workout of userWorkouts"></workout-card>
+        <ion-row class="fadeInUp animated">
+            <ion-col col-12 padding-horizontal>
+                <button navPush="FullWorkoutPage" ion-button size="small" block color="danger">
+                    View Full Workout
+                </button>
+            </ion-col>
+            <!-- <ion-col col-12 padding-horizontal>
+                <button navPush="SettingsPage" ion-button size="small" block color="danger">
+                    Tools
+                </button>
+            </ion-col> -->
+        </ion-row>
+    </div>
+
+    <!-- My Nutrition -->
+    <div>
+        <title-component title="My Nutrition"></title-component>
+        <recipe-card [item]="recipe" goTo="RecipeDetailPage" *ngFor="let recipe of userRecipes"></recipe-card>
+    </div>
+</ion-content>

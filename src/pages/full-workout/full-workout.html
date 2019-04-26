@@ -1,0 +1,7 @@
+<ion-header>
+  <app-header title="Full Workout"></app-header>
+</ion-header>
+
+<ion-content padding class="login-bg">
+  <weekly-card [day]="day" goTo="WorkoutsPage" *ngFor="let day of days"></weekly-card>
+</ion-content>

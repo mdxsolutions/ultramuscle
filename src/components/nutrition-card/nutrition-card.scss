@@ -1,0 +1,25 @@
+nutrition-card {
+    .card {
+        border-radius: 8px;
+        overflow: hidden;
+        height: 96px;
+        .card-content {
+            padding: 0px;
+            display: flex;
+            align-items: center;
+            h2 {
+                font-weight: 600;
+                margin-top: 0;
+                color: #fff;
+                text-transform: uppercase;
+            }
+            p {
+                font-size: 1.2rem;
+                &.text-light {
+                    color: #989898;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}

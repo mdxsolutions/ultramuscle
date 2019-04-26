@@ -1,0 +1,23 @@
+<ion-header>
+  <app-header title="Workouts"></app-header>
+</ion-header>
+
+<ion-content class="workout-bg">
+  <title-component *ngIf="workouts" title="Workouts"></title-component>
+  <workout-card [workout]="workout" goTo="WorkoutDetailPage" *ngFor="let workout of workouts"></workout-card>
+
+  <title-component *ngIf="chestWorkouts" title="Chest"></title-component>
+  <workout-card [workout]="workout" goTo="WorkoutDetailPage" *ngFor="let workout of chestWorkouts"></workout-card>
+
+  <title-component *ngIf="armsWorkouts" title="Arms"></title-component>
+  <workout-card [workout]="workout" goTo="WorkoutDetailPage" *ngFor="let workout of armsWorkouts"></workout-card>
+
+  <title-component *ngIf="legsWorkouts" title="Legs"></title-component>
+  <workout-card [workout]="workout" goTo="WorkoutDetailPage" *ngFor="let workout of legsWorkouts"></workout-card>
+
+  <title-component *ngIf="backWorkouts" title="Back"></title-component>
+  <workout-card [workout]="workout" goTo="WorkoutDetailPage" *ngFor="let workout of backWorkouts"></workout-card>
+
+  <title-component *ngIf="shouldersWorkouts" title="Shoulders"></title-component>
+  <workout-card [workout]="workout" goTo="WorkoutDetailPage" *ngFor="let workout of shouldersWorkouts"></workout-card>
+</ion-content>

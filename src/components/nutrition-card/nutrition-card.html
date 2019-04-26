@@ -1,0 +1,7 @@
+<ion-card [ngStyle]="{'background-image':'url('+item.icon+')'}" (click)="goToItemsPage(item)" *ngFor="let item of items">
+  <ion-card-content>
+    <div>
+      <h2 class="text-white">{{ item.name }}</h2>
+    </div>
+  </ion-card-content>
+</ion-card>

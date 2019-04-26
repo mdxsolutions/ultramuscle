@@ -1,0 +1,87 @@
+<ion-header color="dark">
+  <app-header [title]="workout.name"></app-header>
+</ion-header>
+
+<ion-content class="um-bg">
+  <ion-grid no-padding>
+    <ion-row>
+      <ion-col no-padding>
+        <ion-item>
+          <ion-select
+            [(ngModel)]="levelName"
+            interface="action-sheet"
+            (ionChange)="getLevel(levelName)"
+            class="levelSelect"
+          >
+            <ion-option *ngFor="let level of levels" [value]="level.name">{{
+              level.name
+            }}</ion-option>
+          </ion-select>
+        </ion-item>
+      </ion-col>
+      <ion-col class="text-white">
+        <div margin-top margin-left text-center>{{ levelSelected.sets }} Sets {{ levelSelected.reps }} reps</div>
+      </ion-col>
+    </ion-row>
+    <ion-row no-padding>
+      <ion-col>
+        <ion-slides class="image-slider">
+          <ion-slide *ngFor="let image of workout.images">
+            <img [src]="image" />
+          </ion-slide>
+        </ion-slides>
+      </ion-col>
+    </ion-row>
+    <ion-row margin-top>
+      <ion-col>
+        <div class="tab-segment">
+          <ion-segment [(ngModel)]="Tabs">
+            <ion-segment-button
+              (click)="changeValue(t.value)"
+              [value]="t.value"
+              *ngFor="let t of tabsTitle"
+            >
+              {{ t.name }}
+            </ion-segment-button>
+          </ion-segment>
+        </div>
+
+        <div [ngSwitch]="Tabs">
+          <ion-list *ngSwitchCase="'description'">
+            <ion-row class="text-area" *ngIf="workout.description">
+              <title-component [title]="'Description'"></title-component>
+
+              <ion-card class="fadeInUp animated bg-transparent">
+                <ion-card-content>
+                  <div class="text-white" [innerHTML]="workout.description | domsecure"></div>
+                </ion-card-content>
+              </ion-card>
+            </ion-row>
+          </ion-list>
+          <ion-list *ngSwitchCase="'instructions'">
+            <ion-row class="text-area" *ngIf="workout.instructions">
+              <title-component [title]="'Instructions'"></title-component>
+
+              <ion-card class="fadeInUp animated bg-transparent">
+                <ion-card-content>
+                  <div class="text-white" [innerHTML]="workout.instructions | domsecure"></div>
+                </ion-card-content>
+              </ion-card>
+            </ion-row>
+          </ion-list>
+          <ion-list *ngSwitchCase="'tips'">
+            <ion-row class="text-area" *ngIf="workout.tips">
+              <title-component [title]="'Tips'"></title-component>
+
+              <ion-card class="fadeInUp animated bg-transparent">
+                <ion-card-content>
+                  <div class="text-white" [innerHTML]="workout.tips"></div>
+                </ion-card-content>
+              </ion-card>
+            </ion-row>
+          </ion-list>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

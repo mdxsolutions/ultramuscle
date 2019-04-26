@@ -1,0 +1,67 @@
+<ion-header>
+  <app-header [title]="recipe.name"></app-header>
+</ion-header>
+
+<ion-content class="um-bg">
+  <ion-grid no-padding>
+      <ion-row no-padding>
+          <ion-col>
+              <ion-slides class="image-slider">
+                  <ion-slide *ngFor="let image of recipe.images">
+                      <img [src]="image">
+                  </ion-slide>
+              </ion-slides>
+          </ion-col>                        
+      </ion-row>
+      <ion-row margin-top>
+          <ion-col>
+              <div class="tab-segment">
+                  <ion-segment [(ngModel)]="Tabs">
+                      <ion-segment-button (click)="changeValue( t.value )" [value]="t.value" *ngFor="let t of tabsTitle">
+                        {{ t.name }}
+                      </ion-segment-button>
+                  </ion-segment>
+              </div>
+      
+              <div [ngSwitch]="Tabs">
+                  <ion-list *ngSwitchCase="'description'">
+                      <ion-row class="text-area" *ngIf="recipe.description">
+                          <title-component [title]="'Description'"></title-component>
+      
+                          <ion-card class="fadeInUp animated bg-transparent">
+                              <ion-card-content>
+                                  <p class="text-white">{{ recipe.description }}</p>
+                              </ion-card-content>
+                          </ion-card>
+                      </ion-row>
+      
+                  </ion-list>
+                  <ion-list *ngSwitchCase="'steps'">
+                      <ion-row class="text-area" *ngIf="recipe.steps">
+                          <title-component [title]="'Steps'"></title-component>
+      
+                          <ion-card class="fadeInUp animated bg-transparent" *ngFor="let step of recipe.steps">
+                              <ion-card-content>
+                                <p class="text-white">{{ step }}</p>
+                              </ion-card-content>
+                          </ion-card>
+                      </ion-row>
+                  </ion-list>
+                  
+                  <ion-list *ngSwitchCase="'ingredients'">
+                    <ion-row class="text-area" *ngIf="recipe.ingredients">
+                        <title-component [title]="'Ingredients'"></title-component>
+    
+                        <ion-card class="fadeInUp animated bg-transparent" *ngFor="let ingredient of recipe.ingredients">
+                            <ion-card-content>
+                              <p class="text-white">{{ ingredient }}</p>
+                            </ion-card-content>
+                        </ion-card>
+                    </ion-row>
+                </ion-list>
+              </div>
+          </ion-col>
+      </ion-row>
+  </ion-grid>    
+          
+</ion-content>
