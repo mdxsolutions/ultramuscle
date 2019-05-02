@@ -25,13 +25,13 @@ function convertSnaps(snaps) {
 
 /***/ }),
 
-/***/ 158:
+/***/ 159:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__blog_service__ = __webpack_require__(448);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__blog_service__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__toast_service__ = __webpack_require__(236);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__toast_service__ = __webpack_require__(237);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_1__toast_service__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__alert_service__ = __webpack_require__(297);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_2__alert_service__["a"]; });
@@ -54,14 +54,14 @@ function convertSnaps(snaps) {
 
 /***/ }),
 
-/***/ 159:
+/***/ 160:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AuthService; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_index_services__ = __webpack_require__(158);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_firebase_app__ = __webpack_require__(238);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_index_services__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_firebase_app__ = __webpack_require__(134);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_firebase_app___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_firebase_app__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_fire_auth__ = __webpack_require__(91);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_fire_firestore__ = __webpack_require__(67);
@@ -227,7 +227,7 @@ var AuthService = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 194:
+/***/ 195:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -240,11 +240,11 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 194;
+webpackEmptyAsyncContext.id = 195;
 
 /***/ }),
 
-/***/ 235:
+/***/ 236:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -253,15 +253,15 @@ var map = {
 		5
 	],
 	"../pages/blogs/blogs.module": [
-		514,
+		516,
 		4
 	],
 	"../pages/dashboard/dashboard.module": [
-		515,
+		514,
 		15
 	],
 	"../pages/forgotpassword/forgotpassword.module": [
-		516,
+		515,
 		14
 	],
 	"../pages/full-workout/full-workout.module": [
@@ -277,15 +277,15 @@ var map = {
 		11
 	],
 	"../pages/profile/profile.module": [
-		520,
+		522,
 		2
 	],
 	"../pages/recipe-detail/recipe-detail.module": [
-		522,
+		521,
 		10
 	],
 	"../pages/recipes/recipes.module": [
-		521,
+		520,
 		9
 	],
 	"../pages/settings/settings.module": [
@@ -301,7 +301,7 @@ var map = {
 		0
 	],
 	"../pages/tabs/tabs.module": [
-		526,
+		528,
 		7
 	],
 	"../pages/workout-detail/workout-detail.module": [
@@ -309,7 +309,7 @@ var map = {
 		3
 	],
 	"../pages/workouts/workouts.module": [
-		528,
+		526,
 		6
 	]
 };
@@ -324,18 +324,18 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 235;
+webpackAsyncContext.id = 236;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 236:
+/***/ 237:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ToastService; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -383,7 +383,7 @@ var ToastService = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ComponentsModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common_http__ = __webpack_require__(85);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_component__ = __webpack_require__(436);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__category_card_category_card__ = __webpack_require__(442);
@@ -460,7 +460,7 @@ var ComponentsModule = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AlertService; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -576,7 +576,7 @@ var ToolService = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SettingsProvider; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(242);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -668,14 +668,14 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_status_bar__ = __webpack_require__(282);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_splash_screen__ = __webpack_require__(285);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_common_http__ = __webpack_require__(85);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_app_component__ = __webpack_require__(496);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_components_module__ = __webpack_require__(296);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__core_core_module__ = __webpack_require__(497);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__services_index_services__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__services_index_services__ = __webpack_require__(159);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_settings_settings__ = __webpack_require__(299);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_storage__ = __webpack_require__(242);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -713,27 +713,27 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_5__angular_common_http__["b" /* HttpClientModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_6__app_app_component__["a" /* MyApp */], {
                     scrollPadding: false,
-                    scrollAssist: true,
+                    scrollAssist: false,
                     autoFocusAssist: false,
                     mode: 'ios'
                 }, {
                     links: [
                         { loadChildren: '../pages/blog-detail/blog-detail.module#BlogDetailPageModule', name: 'BlogDetailPage', segment: 'blog-detail', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/blogs/blogs.module#BlogsPageModule', name: 'BlogsPage', segment: 'blogs', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/dashboard/dashboard.module#DashboardPageModule', name: 'DashboardPage', segment: 'dashboard', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/forgotpassword/forgotpassword.module#ForgotpasswordPageModule', name: 'ForgotpasswordPage', segment: 'forgotpassword', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/blogs/blogs.module#BlogsPageModule', name: 'BlogsPage', segment: 'blogs', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/full-workout/full-workout.module#FullWorkoutPageModule', name: 'FullWorkoutPage', segment: 'full-workout', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/nutrition/nutrition.module#NutritionPageModule', name: 'NutritionPage', segment: 'nutrition', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/plans/plans.module#PlansPageModule', name: 'PlansPage', segment: 'plans', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/profile/profile.module#ProfilePageModule', name: 'ProfilePage', segment: 'profile', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/recipes/recipes.module#RecipesPageModule', name: 'RecipesPage', segment: 'recipes', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/recipe-detail/recipe-detail.module#RecipeDetailPageModule', name: 'RecipeDetailPage', segment: 'recipe-detail', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/profile/profile.module#ProfilePageModule', name: 'ProfilePage', segment: 'profile', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/settings/settings.module#SettingsPageModule', name: 'SettingsPage', segment: 'settings', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/signin/signin.module#SigninPageModule', name: 'SigninPage', segment: 'signin', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/signup/signup.module#SignupPageModule', name: 'SignupPage', segment: 'signup', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/tabs/tabs.module#TabsPageModule', name: 'TabsPage', segment: 'tabs', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/workouts/workouts.module#WorkoutsPageModule', name: 'WorkoutsPage', segment: 'workouts', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/workout-detail/workout-detail.module#WorkoutDetailPageModule', name: 'WorkoutDetailPage', segment: 'workout-detail', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/workouts/workouts.module#WorkoutsPageModule', name: 'WorkoutsPage', segment: 'workouts', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/tabs/tabs.module#TabsPageModule', name: 'TabsPage', segment: 'tabs', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_11__ionic_storage__["a" /* IonicStorageModule */].forRoot(),
@@ -794,7 +794,7 @@ var AppModule = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WorkoutCardComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -821,7 +821,7 @@ var WorkoutCardComponent = /** @class */ (function () {
     ], WorkoutCardComponent.prototype, "workout", void 0);
     WorkoutCardComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: "workout-card",template:/*ion-inline-start:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\components\workout-card\workout-card.html"*/'<ion-card class="fadeInUp animated bg-transparent" (click)="goToWorkoutDetailPage(workout)">\n  <ion-card-content>\n    <figure><img [src]="workout.icon"></figure>\n    <div>\n      <h2 class="text-white">{{ workout.name }}</h2>\n      <p style="margin-top:1rem;" class="text-light">{{ workout.name }} Guide</p>\n    </div>\n  </ion-card-content>\n</ion-card>'/*ion-inline-end:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\components\workout-card\workout-card.html"*/
+            selector: "workout-card",template:/*ion-inline-start:"/usr/src/app/ultramuscle/src/components/workout-card/workout-card.html"*/'<ion-card class="fadeInUp animated bg-transparent" (click)="goToWorkoutDetailPage(workout)">\n  <ion-card-content>\n    <figure><img [src]="workout.icon"></figure>\n    <div>\n      <h2 class="text-white">{{ workout.name }}</h2>\n      <p style="margin-top:1rem;" class="text-light">{{ workout.name }} Guide</p>\n    </div>\n  </ion-card-content>\n</ion-card>'/*ion-inline-end:"/usr/src/app/ultramuscle/src/components/workout-card/workout-card.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], WorkoutCardComponent);
@@ -838,8 +838,8 @@ var WorkoutCardComponent = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WeeklyCardComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_toast_service__ = __webpack_require__(236);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_toast_service__ = __webpack_require__(237);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -870,7 +870,7 @@ var WeeklyCardComponent = /** @class */ (function () {
     ], WeeklyCardComponent.prototype, "day", void 0);
     WeeklyCardComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'weekly-card',template:/*ion-inline-start:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\components\weekly-card\weekly-card.html"*/'<ion-card class="fadeInUp animated bg-transparent" (click)="goToWorkoutsPage()">\n\n  <ion-card-content>\n\n    <div>\n\n      <h2 class="text-white">{{ day }}</h2>\n\n      <p style="margin-top:1rem;" class="text-light">Your Workout Plan for {{ day }}</p>\n\n    </div>\n\n  </ion-card-content>\n\n</ion-card>'/*ion-inline-end:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\components\weekly-card\weekly-card.html"*/
+            selector: 'weekly-card',template:/*ion-inline-start:"/usr/src/app/ultramuscle/src/components/weekly-card/weekly-card.html"*/'<ion-card class="fadeInUp animated bg-transparent" (click)="goToWorkoutsPage()">\n  <ion-card-content>\n    <div>\n      <h2 class="text-white">{{ day }}</h2>\n      <p style="margin-top:1rem;" class="text-light">Your Workout Plan for {{ day }}</p>\n    </div>\n  </ion-card-content>\n</ion-card>'/*ion-inline-end:"/usr/src/app/ultramuscle/src/components/weekly-card/weekly-card.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_2__services_toast_service__["a" /* ToastService */]])
@@ -888,7 +888,7 @@ var WeeklyCardComponent = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HeaderComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -917,7 +917,7 @@ var HeaderComponent = /** @class */ (function () {
     ], HeaderComponent.prototype, "goTo", void 0);
     HeaderComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'app-header',template:/*ion-inline-start:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\components\header\header.html"*/'<ion-navbar>\n\n    <button ion-button menuToggle>\n\n        <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>{{ title }}</ion-title>\n\n\n\n    <!-- <ion-buttons end>\n\n        <button ion-button>\n\n            <img src="../../assets/imgs/logo.png" alt="" width="60" (click)="goToPage()">\n\n        </button>\n\n    </ion-buttons> -->\n\n</ion-navbar>'/*ion-inline-end:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\components\header\header.html"*/
+            selector: 'app-header',template:/*ion-inline-start:"/usr/src/app/ultramuscle/src/components/header/header.html"*/'<ion-navbar>\n    <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>{{ title }}</ion-title>\n\n    <!-- <ion-buttons end>\n        <button ion-button>\n            <img src="../../assets/imgs/logo.png" alt="" width="60" (click)="goToPage()">\n        </button>\n    </ion-buttons> -->\n</ion-navbar>'/*ion-inline-end:"/usr/src/app/ultramuscle/src/components/header/header.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], HeaderComponent);
@@ -953,7 +953,7 @@ var TitleComponent = /** @class */ (function () {
     ], TitleComponent.prototype, "title", void 0);
     TitleComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'title-component',template:/*ion-inline-start:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\components\title\title-component.html"*/'<ion-row class="text-area">\n\n  <ion-col col-12>\n\n    <h3 class="">{{ title }}</h3>\n\n  </ion-col>\n\n</ion-row>'/*ion-inline-end:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\components\title\title-component.html"*/
+            selector: 'title-component',template:/*ion-inline-start:"/usr/src/app/ultramuscle/src/components/title/title-component.html"*/'<ion-row class="text-area">\n  <ion-col col-12>\n    <h3 class="">{{ title }}</h3>\n  </ion-col>\n</ion-row>'/*ion-inline-end:"/usr/src/app/ultramuscle/src/components/title/title-component.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], TitleComponent);
@@ -993,7 +993,7 @@ var ToolCardComponent = /** @class */ (function () {
     ], ToolCardComponent.prototype, "name", void 0);
     ToolCardComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'tool-card',template:/*ion-inline-start:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\components\tool-card\tool-card.html"*/'<ion-card class="fadeInUp animated bg-transparent">\n\n  <ion-card-content>\n\n    <figure><img [src]="\'../../assets/imgs/\' + image"></figure>\n\n    <div>\n\n      <h2 class="text-white">{{ name }}</h2>\n\n    </div>\n\n  </ion-card-content>\n\n</ion-card>'/*ion-inline-end:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\components\tool-card\tool-card.html"*/
+            selector: 'tool-card',template:/*ion-inline-start:"/usr/src/app/ultramuscle/src/components/tool-card/tool-card.html"*/'<ion-card class="fadeInUp animated bg-transparent">\n  <ion-card-content>\n    <figure><img [src]="\'../../assets/imgs/\' + image"></figure>\n    <div>\n      <h2 class="text-white">{{ name }}</h2>\n    </div>\n  </ion-card-content>\n</ion-card>'/*ion-inline-end:"/usr/src/app/ultramuscle/src/components/tool-card/tool-card.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], ToolCardComponent);
@@ -1010,7 +1010,7 @@ var ToolCardComponent = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CategoryCardComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1041,7 +1041,7 @@ var CategoryCardComponent = /** @class */ (function () {
     ], CategoryCardComponent.prototype, "goTo", void 0);
     CategoryCardComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'category-card',template:/*ion-inline-start:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\components\category-card\category-card.html"*/'<ion-card class="fadeInUp animated bg-transparent bg-transparent" (click)="goToItemsPage(item)" *ngFor="let item of items">\n\n  <ion-card-content>\n\n    <figure><img [src]="item.icon"></figure>\n\n    <div>\n\n      <h2>{{ item.name }}</h2>\n\n    </div>\n\n  </ion-card-content>\n\n</ion-card>'/*ion-inline-end:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\components\category-card\category-card.html"*/
+            selector: 'category-card',template:/*ion-inline-start:"/usr/src/app/ultramuscle/src/components/category-card/category-card.html"*/'<ion-card class="fadeInUp animated bg-transparent bg-transparent" (click)="goToItemsPage(item)" *ngFor="let item of items">\n  <ion-card-content>\n    <figure><img [src]="item.icon"></figure>\n    <div>\n      <h2>{{ item.name }}</h2>\n    </div>\n  </ion-card-content>\n</ion-card>'/*ion-inline-end:"/usr/src/app/ultramuscle/src/components/category-card/category-card.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
@@ -1082,7 +1082,7 @@ var WorkoutHeaderComponent = /** @class */ (function () {
     ], WorkoutHeaderComponent.prototype, "level", void 0);
     WorkoutHeaderComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'workout-header',template:/*ion-inline-start:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\components\workout-header\workout-header.html"*/'<ion-navbar>\n\n  <ion-title>\n\n      <ion-row>\n\n        <ion-col col-8>\n\n          {{ category }} <br>{{ level }}\n\n        </ion-col>\n\n        <ion-col col-4 text-right>\n\n          <span>\n\n            <p>Level</p>\n\n            <ion-icon name="md-flash" class="active"></ion-icon>\n\n            <ion-icon name="md-flash"></ion-icon>\n\n            <ion-icon name="md-flash"></ion-icon>\n\n          </span>\n\n        </ion-col>\n\n        <ion-col col-12>\n\n          <p>11 Workout</p>\n\n        </ion-col>\n\n      </ion-row>\n\n    </ion-title>      \n\n</ion-navbar>'/*ion-inline-end:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\components\workout-header\workout-header.html"*/
+            selector: 'workout-header',template:/*ion-inline-start:"/usr/src/app/ultramuscle/src/components/workout-header/workout-header.html"*/'<ion-navbar>\n  <ion-title>\n      <ion-row>\n        <ion-col col-8>\n          {{ category }} <br>{{ level }}\n        </ion-col>\n        <ion-col col-4 text-right>\n          <span>\n            <p>Level</p>\n            <ion-icon name="md-flash" class="active"></ion-icon>\n            <ion-icon name="md-flash"></ion-icon>\n            <ion-icon name="md-flash"></ion-icon>\n          </span>\n        </ion-col>\n        <ion-col col-12>\n          <p>11 Workout</p>\n        </ion-col>\n      </ion-row>\n    </ion-title>      \n</ion-navbar>'/*ion-inline-end:"/usr/src/app/ultramuscle/src/components/workout-header/workout-header.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], WorkoutHeaderComponent);
@@ -1099,7 +1099,7 @@ var WorkoutHeaderComponent = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BlogCardComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular_navigation_nav_controller__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1124,9 +1124,9 @@ var BlogCardComponent = /** @class */ (function () {
     ], BlogCardComponent.prototype, "blog", void 0);
     BlogCardComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'blog-card',template:/*ion-inline-start:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\components\blog-card\blog-card.html"*/'<ion-card no-padding class="bg-transparent text-white">\n\n  <img [src]="blog.image" />\n\n  <ion-card-content>\n\n    <ion-card-title text-center class="text-white">\n\n        {{ blog.title }}\n\n    </ion-card-title>\n\n    <p class="text-white">\n\n        {{ blog.shortDescription }}\n\n    </p>\n\n    <hr>\n\n    <button (click)="goToBlogPageDetail(blog)" ion-button block color="danger">View</button>\n\n  </ion-card-content>\n\n</ion-card>'/*ion-inline-end:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\components\blog-card\blog-card.html"*/
+            selector: 'blog-card',template:/*ion-inline-start:"/usr/src/app/ultramuscle/src/components/blog-card/blog-card.html"*/'<ion-card no-padding class="bg-transparent text-white">\n  <img [src]="blog.image" />\n  <ion-card-content>\n    <ion-card-title text-center class="text-white">\n        {{ blog.title }}\n    </ion-card-title>\n    <p class="text-white">\n        {{ blog.shortDescription }}\n    </p>\n    <hr>\n    <button (click)="goToBlogPageDetail(blog)" ion-button block color="danger">View</button>\n  </ion-card-content>\n</ion-card>'/*ion-inline-end:"/usr/src/app/ultramuscle/src/components/blog-card/blog-card.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular_navigation_nav_controller__["a" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], BlogCardComponent);
     return BlogCardComponent;
 }());
@@ -1164,7 +1164,7 @@ var PostCardComponent = /** @class */ (function () {
     }
     PostCardComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'post-card',template:/*ion-inline-start:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\components\post-card\post-card.html"*/'<ion-card class="fadeInUp animated bg-transparent" (click)="goToPostPage()">\n\n  <ion-card-content>\n\n    <figure><img src="../../assets/imgs/blog/1.png"></figure>\n\n    <div>\n\n      <h2 class="text-white">Post1</h2>\n\n      <p style="margin-top:1rem;" class="text-light">31 March 19</p>\n\n    </div>\n\n  </ion-card-content>\n\n</ion-card>'/*ion-inline-end:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\components\post-card\post-card.html"*/
+            selector: 'post-card',template:/*ion-inline-start:"/usr/src/app/ultramuscle/src/components/post-card/post-card.html"*/'<ion-card class="fadeInUp animated bg-transparent" (click)="goToPostPage()">\n  <ion-card-content>\n    <figure><img src="../../assets/imgs/blog/1.png"></figure>\n    <div>\n      <h2 class="text-white">Post1</h2>\n      <p style="margin-top:1rem;" class="text-light">31 March 19</p>\n    </div>\n  </ion-card-content>\n</ion-card>'/*ion-inline-end:"/usr/src/app/ultramuscle/src/components/post-card/post-card.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], PostCardComponent);
@@ -1181,7 +1181,7 @@ var PostCardComponent = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NutritionCardComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1212,7 +1212,7 @@ var NutritionCardComponent = /** @class */ (function () {
     ], NutritionCardComponent.prototype, "goTo", void 0);
     NutritionCardComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'nutrition-card',template:/*ion-inline-start:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\components\nutrition-card\nutrition-card.html"*/'<ion-card [ngStyle]="{\'background-image\':\'url(\'+item.icon+\')\'}" (click)="goToItemsPage(item)" *ngFor="let item of items">\n\n  <ion-card-content>\n\n    <div>\n\n      <h2 class="text-white">{{ item.name }}</h2>\n\n    </div>\n\n  </ion-card-content>\n\n</ion-card>'/*ion-inline-end:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\components\nutrition-card\nutrition-card.html"*/
+            selector: 'nutrition-card',template:/*ion-inline-start:"/usr/src/app/ultramuscle/src/components/nutrition-card/nutrition-card.html"*/'<ion-card [ngStyle]="{\'background-image\':\'url(\'+item.icon+\')\'}" (click)="goToItemsPage(item)" *ngFor="let item of items">\n  <ion-card-content>\n    <div>\n      <h2 class="text-white">{{ item.name }}</h2>\n    </div>\n  </ion-card-content>\n</ion-card>'/*ion-inline-end:"/usr/src/app/ultramuscle/src/components/nutrition-card/nutrition-card.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
@@ -1230,7 +1230,7 @@ var NutritionCardComponent = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RecipeCardComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1261,7 +1261,7 @@ var RecipeCardComponent = /** @class */ (function () {
     ], RecipeCardComponent.prototype, "goTo", void 0);
     RecipeCardComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'recipe-card',template:/*ion-inline-start:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\components\recipe-card\recipe-card.html"*/'<ion-card class="fadeInUp animated bg-transparent" (click)="goToItemDetail(item)">\n\n  <ion-card-content>\n\n    <div>\n\n      <h2 class="text-white">{{ item.name }}</h2>\n\n      <p style="margin-top:1rem;" class="text-light">{{ item.name }} Recipe</p>\n\n    </div>\n\n  </ion-card-content>\n\n</ion-card>'/*ion-inline-end:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\components\recipe-card\recipe-card.html"*/
+            selector: 'recipe-card',template:/*ion-inline-start:"/usr/src/app/ultramuscle/src/components/recipe-card/recipe-card.html"*/'<ion-card class="fadeInUp animated bg-transparent" (click)="goToItemDetail(item)">\n  <ion-card-content>\n    <div>\n      <h2 class="text-white">{{ item.name }}</h2>\n      <p style="margin-top:1rem;" class="text-light">{{ item.name }} Recipe</p>\n    </div>\n  </ion-card-content>\n</ion-card>'/*ion-inline-end:"/usr/src/app/ultramuscle/src/components/recipe-card/recipe-card.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
@@ -1501,11 +1501,11 @@ var WorkoutService = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(282);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(285);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_fire_auth__ = __webpack_require__(91);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_auth_service__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_auth_service__ = __webpack_require__(160);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1637,7 +1637,7 @@ var MyApp = /** @class */ (function () {
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Nav */])
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\app\app.component.html"*/'<ion-menu id="main" [content]="content">\n\n    <ion-header>\n\n        <div class="menu heading">\n\n            <ion-list *ngIf="auth.user$ | async as user">\n\n                <ion-item menuClose (click)="goToProfilePage()">\n\n                    <!-- <ion-avatar item-start>\n\n                        <img src="assets/imgs/profile.jpg">\n\n                    </ion-avatar> -->\n\n                    <h2 class="text-white">{{ user.displayName }}</h2>\n\n                    <p class="text-white">View Profile</p>\n\n                </ion-item>\n\n            </ion-list>\n\n        </div>\n\n    </ion-header>\n\n\n\n    <ion-content class="menu" padding>\n\n        <ion-list no-lines class="text-white">\n\n            <ion-item menuClose (click)="goToItemPage(item.id)" *ngFor="let item of elements">\n\n                <ion-icon [name]="item.icon" item-start class="text-theme"></ion-icon>\n\n                {{ item.name }}\n\n            </ion-item>\n\n            <ion-item menuClose (click)="signOut()">\n\n                <ion-icon name="md-log-out" item-start class="text-theme"></ion-icon>\n\n                Logout\n\n            </ion-item>\n\n        </ion-list>\n\n    </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\app\app.component.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/usr/src/app/ultramuscle/src/app/app.component.html"*/'<ion-menu id="main" [content]="content">\n    <ion-header>\n        <div class="menu heading">\n            <ion-list *ngIf="auth.user$ | async as user">\n                <ion-item menuClose (click)="goToProfilePage()">\n                    <!-- <ion-avatar item-start>\n                        <img src="assets/imgs/profile.jpg">\n                    </ion-avatar> -->\n                    <h2 class="text-white">{{ user.displayName }}</h2>\n                    <p class="text-white">View Profile</p>\n                </ion-item>\n            </ion-list>\n        </div>\n    </ion-header>\n\n    <ion-content class="menu" padding>\n        <ion-list no-lines class="text-white">\n            <ion-item menuClose (click)="goToItemPage(item.id)" *ngFor="let item of elements">\n                <ion-icon [name]="item.icon" item-start class="text-theme"></ion-icon>\n                {{ item.name }}\n            </ion-item>\n            <ion-item menuClose (click)="signOut()">\n                <ion-icon name="md-log-out" item-start class="text-theme"></ion-icon>\n                Logout\n            </ion-item>\n        </ion-list>\n    </ion-content>\n</ion-menu>\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"/usr/src/app/ultramuscle/src/app/app.component.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */],
             __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */],
@@ -1664,8 +1664,8 @@ var MyApp = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_fire_firestore__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_fire_storage__ = __webpack_require__(508);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_fire_auth__ = __webpack_require__(91);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__auth_service__ = __webpack_require__(159);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ionic_angular__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__auth_service__ = __webpack_require__(160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ionic_angular__ = __webpack_require__(19);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);

@@ -1,11 +1,9 @@
 import { Component } from '@angular/core';
-import { IonicPage } from 'ionic-angular';
-import { NavParams } from 'ionic-angular/navigation/nav-params';
+import { IonicPage, NavParams } from 'ionic-angular';
 
 // Firebase
 import { AngularFireAuth } from '@angular/fire/auth';
 import { AuthService } from '../../app/core/auth.service';
-import { NavController } from 'ionic-angular/navigation/nav-controller';
 
 @IonicPage()
 @Component({
@@ -24,7 +22,6 @@ export class TabsPage {
 
   constructor(
     private navParams: NavParams,
-    private navCtrl: NavController,
     public afAuth: AngularFireAuth,
     public auth: AuthService
   ) {

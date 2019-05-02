@@ -1,14 +1,14 @@
 webpackJsonp([4],{
 
-/***/ 514:
+/***/ 516:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BlogsPageModule", function() { return BlogsPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__blogs__ = __webpack_require__(550);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__blogs__ = __webpack_require__(552);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(296);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pipes_pipes_module__ = __webpack_require__(532);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -115,13 +115,13 @@ var DomsecurePipe = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 550:
+/***/ 552:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BlogsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_index_services__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_index_services__ = __webpack_require__(159);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -145,7 +145,7 @@ var BlogsPage = /** @class */ (function () {
     };
     BlogsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-blogs',template:/*ion-inline-start:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\pages\blogs\blogs.html"*/'<ion-header>\n\n  <app-header title="Blogs"></app-header>\n\n</ion-header>\n\n\n\n\n\n<ion-content class="login-bg">\n\n  <ion-grid>\n\n    <ion-row>\n\n      <ion-col col-12 no-padding>\n\n        <blog-card [blog]="blog" *ngFor="let blog of blogs"></blog-card>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\pages\blogs\blogs.html"*/,
+            selector: 'page-blogs',template:/*ion-inline-start:"/usr/src/app/ultramuscle/src/pages/blogs/blogs.html"*/'<ion-header>\n  <app-header title="Blogs"></app-header>\n</ion-header>\n\n\n<ion-content class="login-bg">\n  <ion-grid>\n    <ion-row>\n      <ion-col col-12 no-padding>\n        <blog-card [blog]="blog" *ngFor="let blog of blogs"></blog-card>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n</ion-content>\n'/*ion-inline-end:"/usr/src/app/ultramuscle/src/pages/blogs/blogs.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_index_services__["b" /* BlogService */]])
     ], BlogsPage);

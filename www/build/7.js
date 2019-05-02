@@ -1,14 +1,14 @@
 webpackJsonp([7],{
 
-/***/ 526:
+/***/ 528:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TabsPageModule", function() { return TabsPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs__ = __webpack_require__(562);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs__ = __webpack_require__(564);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -44,16 +44,15 @@ var TabsPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 562:
+/***/ 564:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular_navigation_nav_params__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_fire_auth__ = __webpack_require__(91);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_core_auth_service__ = __webpack_require__(159);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular_navigation_nav_controller__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_core_auth_service__ = __webpack_require__(160);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -68,11 +67,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 // Firebase
 
 
-
 var TabsPage = /** @class */ (function () {
-    function TabsPage(navParams, navCtrl, afAuth, auth) {
+    function TabsPage(navParams, afAuth, auth) {
         this.navParams = navParams;
-        this.navCtrl = navCtrl;
         this.afAuth = afAuth;
         this.auth = auth;
         this.mySelectedIndex = this.navParams.data.tabIndex || 0;
@@ -83,10 +80,9 @@ var TabsPage = /** @class */ (function () {
     }
     TabsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-tabs',template:/*ion-inline-start:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\pages\tabs\tabs.html"*/'<ion-tabs [selectedIndex]="mySelectedIndex" color="tabs-color">\n\n    <ion-tab tabIcon="home" tabTitle="Dashboard" [root]="tab1"></ion-tab>\n\n    <ion-tab tabIcon="body" tabTitle="Workouts" [root]="tab2"></ion-tab>\n\n    <ion-tab tabIcon="nutrition" tabTitle="Nutrition" [root]="tab3"></ion-tab>\n\n    <ion-tab tabIcon="pricetag" tabTitle="Blogs" [root]="tab4"></ion-tab>\n\n</ion-tabs>'/*ion-inline-end:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\pages\tabs\tabs.html"*/,
+            selector: 'page-tabs',template:/*ion-inline-start:"/usr/src/app/ultramuscle/src/pages/tabs/tabs.html"*/'<ion-tabs [selectedIndex]="mySelectedIndex" color="tabs-color">\n    <ion-tab tabIcon="home" tabTitle="Dashboard" [root]="tab1"></ion-tab>\n    <ion-tab tabIcon="body" tabTitle="Workouts" [root]="tab2"></ion-tab>\n    <ion-tab tabIcon="nutrition" tabTitle="Nutrition" [root]="tab3"></ion-tab>\n    <ion-tab tabIcon="pricetag" tabTitle="Blogs" [root]="tab4"></ion-tab>\n</ion-tabs>'/*ion-inline-end:"/usr/src/app/ultramuscle/src/pages/tabs/tabs.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular_navigation_nav_params__["a" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_4_ionic_angular_navigation_nav_controller__["a" /* NavController */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */],
             __WEBPACK_IMPORTED_MODULE_2__angular_fire_auth__["a" /* AngularFireAuth */],
             __WEBPACK_IMPORTED_MODULE_3__app_core_auth_service__["a" /* AuthService */]])
     ], TabsPage);

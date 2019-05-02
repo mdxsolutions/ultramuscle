@@ -1,14 +1,14 @@
 webpackJsonp([14],{
 
-/***/ 516:
+/***/ 515:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ForgotpasswordPageModule", function() { return ForgotpasswordPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__forgotpassword__ = __webpack_require__(552);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__forgotpassword__ = __webpack_require__(551);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -38,14 +38,14 @@ var ForgotpasswordPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 552:
+/***/ 551:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ForgotpasswordPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_core_auth_service__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_core_auth_service__ = __webpack_require__(160);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(31);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -79,7 +79,7 @@ var ForgotpasswordPage = /** @class */ (function () {
     };
     ForgotpasswordPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-forgotpassword',template:/*ion-inline-start:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\pages\forgotpassword\forgotpassword.html"*/'<ion-content padding class="login-bg">\n\n  <div class="fadeInUp animated login-box">\n\n      <h3 text-center class="text-white">Forgot Password</h3><br><br><br>\n\n      <div class="theme-input">\n\n          <form [formGroup]="forgotPasswordForm">\n\n            <ion-list>\n\n                <ion-item>\n\n                    <ion-input type="email" placeholder="Email Address" formControlName="email"></ion-input>\n\n                </ion-item>\n\n            </ion-list>\n\n          </form>\n\n      </div>\n\n      <ion-row class="um-button" text-center>\n\n          <ion-col margin-top>\n\n              <button (click)="resetPassword()" [disabled]="forgotPasswordForm.invalid" ion-button class="transparent">Send</button>\n\n          </ion-col>\n\n      </ion-row>\n\n      <br><br><br><br>\n\n      <p text-center class="text-white">Back to <span navPush="SigninPage" class="text-theme">Login</span></p>\n\n  </div>\n\n</ion-content>'/*ion-inline-end:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\pages\forgotpassword\forgotpassword.html"*/,
+            selector: 'page-forgotpassword',template:/*ion-inline-start:"/usr/src/app/ultramuscle/src/pages/forgotpassword/forgotpassword.html"*/'<ion-content padding class="login-bg">\n  <div class="fadeInUp animated login-box">\n      <h3 text-center class="text-white">Forgot Password</h3><br><br><br>\n      <div class="theme-input">\n          <form [formGroup]="forgotPasswordForm">\n            <ion-list>\n                <ion-item>\n                    <ion-input type="email" placeholder="Email Address" formControlName="email"></ion-input>\n                </ion-item>\n            </ion-list>\n          </form>\n      </div>\n      <ion-row class="um-button" text-center>\n          <ion-col margin-top>\n              <button (click)="resetPassword()" [disabled]="forgotPasswordForm.invalid" ion-button class="transparent">Send</button>\n          </ion-col>\n      </ion-row>\n      <br><br><br><br>\n      <p text-center class="text-white">Back to <span navPush="SigninPage" class="text-theme">Login</span></p>\n  </div>\n</ion-content>'/*ion-inline-end:"/usr/src/app/ultramuscle/src/pages/forgotpassword/forgotpassword.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */],

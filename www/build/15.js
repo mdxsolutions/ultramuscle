@@ -1,14 +1,14 @@
 webpackJsonp([15],{
 
-/***/ 515:
+/***/ 514:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DashboardPageModule", function() { return DashboardPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dashboard__ = __webpack_require__(551);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dashboard__ = __webpack_require__(550);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(296);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -42,15 +42,15 @@ var DashboardPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 551:
+/***/ 550:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DashboardPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_index_services__ = __webpack_require__(158);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_core_auth_service__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_index_services__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_core_auth_service__ = __webpack_require__(160);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -182,7 +182,7 @@ var DashboardPage = /** @class */ (function () {
     };
     DashboardPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-dashboard',template:/*ion-inline-start:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\pages\dashboard\dashboard.html"*/'<ion-header>\n\n    <app-header title="Dashboard"></app-header>\n\n</ion-header>\n\n<ion-content class="dashboard-bg">\n\n    <!-- My Workouts -->\n\n    <div>\n\n        <title-component title="My workouts"></title-component>\n\n        <workout-card [workout]="workout" *ngFor="let workout of userWorkouts"></workout-card>\n\n        <ion-row class="fadeInUp animated">\n\n            <ion-col col-12 padding-horizontal>\n\n                <button navPush="FullWorkoutPage" ion-button size="small" block color="danger">\n\n                    View Full Workout\n\n                </button>\n\n            </ion-col>\n\n            <!-- <ion-col col-12 padding-horizontal>\n\n                <button navPush="SettingsPage" ion-button size="small" block color="danger">\n\n                    Tools\n\n                </button>\n\n            </ion-col> -->\n\n        </ion-row>\n\n    </div>\n\n\n\n    <!-- My Nutrition -->\n\n    <div>\n\n        <title-component title="My Nutrition"></title-component>\n\n        <recipe-card [item]="recipe" goTo="RecipeDetailPage" *ngFor="let recipe of userRecipes"></recipe-card>\n\n    </div>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\pages\dashboard\dashboard.html"*/,
+            selector: 'page-dashboard',template:/*ion-inline-start:"/usr/src/app/ultramuscle/src/pages/dashboard/dashboard.html"*/'<ion-header>\n    <app-header title="Dashboard"></app-header>\n</ion-header>\n<ion-content class="dashboard-bg">\n    <!-- My Workouts -->\n    <div>\n        <title-component title="My workouts"></title-component>\n        <workout-card [workout]="workout" *ngFor="let workout of userWorkouts"></workout-card>\n        <ion-row class="fadeInUp animated">\n            <ion-col col-12 padding-horizontal>\n                <button navPush="FullWorkoutPage" ion-button size="small" block color="danger">\n                    View Full Workout\n                </button>\n            </ion-col>\n            <!-- <ion-col col-12 padding-horizontal>\n                <button navPush="SettingsPage" ion-button size="small" block color="danger">\n                    Tools\n                </button>\n            </ion-col> -->\n        </ion-row>\n    </div>\n\n    <!-- My Nutrition -->\n    <div>\n        <title-component title="My Nutrition"></title-component>\n        <recipe-card [item]="recipe" goTo="RecipeDetailPage" *ngFor="let recipe of userRecipes"></recipe-card>\n    </div>\n</ion-content>\n'/*ion-inline-end:"/usr/src/app/ultramuscle/src/pages/dashboard/dashboard.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */],
             __WEBPACK_IMPORTED_MODULE_2__services_index_services__["f" /* WorkoutService */],

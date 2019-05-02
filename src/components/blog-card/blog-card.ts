@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { NavController } from 'ionic-angular/navigation/nav-controller';
+import { NavController } from 'ionic-angular';
 
 // Models
 import { Blog } from '../../models/index.models';

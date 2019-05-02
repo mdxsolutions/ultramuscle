@@ -5,6 +5,7 @@
 # ionic
 node_modules/
 plugins/
+platforms/
 
 # Platform iOS
 *.mode1v3

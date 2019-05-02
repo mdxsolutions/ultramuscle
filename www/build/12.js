@@ -7,7 +7,7 @@ webpackJsonp([12],{
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NutritionPageModule", function() { return NutritionPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nutrition__ = __webpack_require__(554);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(296);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -47,8 +47,8 @@ var NutritionPageModule = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NutritionPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_index_services__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_index_services__ = __webpack_require__(159);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -130,7 +130,7 @@ var NutritionPage = /** @class */ (function () {
     };
     NutritionPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-nutrition',template:/*ion-inline-start:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\pages\nutrition\nutrition.html"*/'<ion-header>\n\n  <app-header title="Nutrition"></app-header>\n\n</ion-header>\n\n\n\n\n\n<ion-content class="nutrition-bg">\n\n  <!-- Title Categories -->\n\n  <title-component title="Categories"></title-component>\n\n\n\n  <!-- Card Categories -->\n\n  <category-card [items]="nutritions$ | async" goTo="RecipesPage"></category-card>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\pages\nutrition\nutrition.html"*/,
+            selector: 'page-nutrition',template:/*ion-inline-start:"/usr/src/app/ultramuscle/src/pages/nutrition/nutrition.html"*/'<ion-header>\n  <app-header title="Nutrition"></app-header>\n</ion-header>\n\n\n<ion-content class="nutrition-bg">\n  <!-- Title Categories -->\n  <title-component title="Categories"></title-component>\n\n  <!-- Card Categories -->\n  <category-card [items]="nutritions$ | async" goTo="RecipesPage"></category-card>\n</ion-content>\n'/*ion-inline-end:"/usr/src/app/ultramuscle/src/pages/nutrition/nutrition.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__services_index_services__["c" /* NutritionService */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]])

@@ -7,7 +7,7 @@ webpackJsonp([11],{
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PlansPageModule", function() { return PlansPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__plans__ = __webpack_require__(555);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(296);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -47,8 +47,8 @@ var PlansPageModule = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PlansPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_index_services__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_index_services__ = __webpack_require__(159);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -130,7 +130,7 @@ var PlansPage = /** @class */ (function () {
     };
     PlansPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: "page-plans",template:/*ion-inline-start:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\pages\plans\plans.html"*/'<ion-header>\n\n  <app-header title="Workouts"></app-header>\n\n</ion-header>\n\n\n\n\n\n<ion-content class="workout-bg">\n\n   <!-- Title Categories -->\n\n   <title-component title="Workout Plans"></title-component>\n\n\n\n   <!-- Card Categories -->\n\n   <category-card [items]="plans$ | async" goTo="WorkoutsPage"></category-card>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\pages\plans\plans.html"*/
+            selector: "page-plans",template:/*ion-inline-start:"/usr/src/app/ultramuscle/src/pages/plans/plans.html"*/'<ion-header>\n  <app-header title="Workouts"></app-header>\n</ion-header>\n\n\n<ion-content class="workout-bg">\n   <!-- Title Categories -->\n   <title-component title="Workout Plans"></title-component>\n\n   <!-- Card Categories -->\n   <category-card [items]="plans$ | async" goTo="WorkoutsPage"></category-card>\n</ion-content>\n'/*ion-inline-end:"/usr/src/app/ultramuscle/src/pages/plans/plans.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__services_index_services__["f" /* WorkoutService */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]])

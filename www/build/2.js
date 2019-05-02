@@ -1,14 +1,14 @@
 webpackJsonp([2],{
 
-/***/ 520:
+/***/ 522:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProfilePageModule", function() { return ProfilePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__profile__ = __webpack_require__(556);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__profile__ = __webpack_require__(558);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(296);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ultimate_ngxerrors__ = __webpack_require__(534);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -150,9 +150,9 @@ NgxErrorsDirective.propDecorators = {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgxErrorDirective; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(161);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(162);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__ = __webpack_require__(160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__ = __webpack_require__(161);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_filter__ = __webpack_require__(535);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_filter___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_filter__);
@@ -576,14 +576,14 @@ NgxErrorsModule.ctorParameters = function () { return []; };
 
 /***/ }),
 
-/***/ 556:
+/***/ 558:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProfilePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_core_auth_service__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_core_auth_service__ = __webpack_require__(160);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_alert_service__ = __webpack_require__(297);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -733,7 +733,7 @@ var ProfilePage = /** @class */ (function () {
     };
     ProfilePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-profile',template:/*ion-inline-start:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\pages\profile\profile.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n        <ion-title>Profile\n\n        </ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content class="login-bg" padding>\n\n    <!-- <div class="img-update fadeInUp animated">\n\n        <figure>\n\n            <img src="assets/imgs/profile.jpg" class="profile">\n\n            <ion-icon name="md-camera"></ion-icon>\n\n        </figure>\n\n    </div> -->\n\n    <div *ngIf="auth.user$ | async">\n\n        <div class="theme-input" *ngIf="auth.user$ | async as user">\n\n            <form [formGroup]="profileForm">\n\n                <ion-list class="fadeInUp animated delay-2 um-bg">\n\n                    <ion-item margin-bottom [ngClass]="{ invalid: displayNameErrors.hasError(\'*\', [\'touched\']) }">\n\n                        <ion-input type="text" formControlName="displayName" placeholder="Name" [value]="user.displayName"></ion-input>\n\n                    </ion-item>\n\n\n\n                    <div margin-bottom ngxErrors="displayName" #displayNameErrors="ngxErrors">\n\n                        <div [ngxError]="[\'displayName\', \'required\']" [when]="[\'touched\']" class="text-white">\n\n                            It should be a valid name\n\n                        </div>\n\n                    </div>\n\n                </ion-list>\n\n                <ion-list class="fadeInUp animated delay-4 um-bg">\n\n                    <ion-item margin-bottom [ngClass]="{ invalid: displayTargetErrors.hasError(\'*\', [\'touched\']) }">\n\n                        <ion-select formControlName="target" placeholder="Target" value="Loose Weight">\n\n                            <ion-option [value]="target.name" *ngFor="let target of targets">{{ target.name }}</ion-option>\n\n                        </ion-select>\n\n                    </ion-item>\n\n\n\n                    <div margin-bottom ngxErrors="target" #displayTargetErrors="ngxErrors">\n\n                        <div [ngxError]="[\'target\', \'required\']" [when]="[\'touched\']" class="text-white">\n\n                            It should be a valid target\n\n                        </div>\n\n                    </div>\n\n                </ion-list>\n\n                <ion-list class="fadeInUp animated delay-6 um-bg">\n\n                    <ion-item>\n\n                        <ion-label>Email Address</ion-label>\n\n                        <ion-input type="email" placeholder="Email" [value]="user.email" readonly>\n\n                        </ion-input>\n\n                    </ion-item>\n\n                </ion-list>\n\n            </form>\n\n        </div>\n\n    </div>\n\n    <br><br><br>\n\n    <p class="fixed">\n\n        <button [disabled]="profileForm.invalid" full ion-button color="danger" (click)="updateProfile()">\n\n            Update Profile\n\n        </button>\n\n    </p>\n\n</ion-content>'/*ion-inline-end:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\pages\profile\profile.html"*/
+            selector: 'page-profile',template:/*ion-inline-start:"/usr/src/app/ultramuscle/src/pages/profile/profile.html"*/'<ion-header>\n    <ion-navbar>\n        <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n        </button>\n        <ion-title>Profile\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content class="login-bg" padding>\n    <!-- <div class="img-update fadeInUp animated">\n        <figure>\n            <img src="assets/imgs/profile.jpg" class="profile">\n            <ion-icon name="md-camera"></ion-icon>\n        </figure>\n    </div> -->\n    <div *ngIf="auth.user$ | async">\n        <div class="theme-input" *ngIf="auth.user$ | async as user">\n            <form [formGroup]="profileForm">\n                <ion-list class="fadeInUp animated delay-2 um-bg">\n                    <ion-item margin-bottom [ngClass]="{ invalid: displayNameErrors.hasError(\'*\', [\'touched\']) }">\n                        <ion-input type="text" formControlName="displayName" placeholder="Name" [value]="user.displayName"></ion-input>\n                    </ion-item>\n\n                    <div margin-bottom ngxErrors="displayName" #displayNameErrors="ngxErrors">\n                        <div [ngxError]="[\'displayName\', \'required\']" [when]="[\'touched\']" class="text-white">\n                            It should be a valid name\n                        </div>\n                    </div>\n                </ion-list>\n                <ion-list class="fadeInUp animated delay-4 um-bg">\n                    <ion-item margin-bottom [ngClass]="{ invalid: displayTargetErrors.hasError(\'*\', [\'touched\']) }">\n                        <ion-select formControlName="target" placeholder="Target" value="Loose Weight">\n                            <ion-option [value]="target.name" *ngFor="let target of targets">{{ target.name }}</ion-option>\n                        </ion-select>\n                    </ion-item>\n\n                    <div margin-bottom ngxErrors="target" #displayTargetErrors="ngxErrors">\n                        <div [ngxError]="[\'target\', \'required\']" [when]="[\'touched\']" class="text-white">\n                            It should be a valid target\n                        </div>\n                    </div>\n                </ion-list>\n                <ion-list class="fadeInUp animated delay-6 um-bg">\n                    <ion-item>\n                        <ion-label>Email Address</ion-label>\n                        <ion-input type="email" placeholder="Email" [value]="user.email" readonly>\n                        </ion-input>\n                    </ion-item>\n                </ion-list>\n            </form>\n        </div>\n    </div>\n    <br><br><br>\n    <p class="fixed">\n        <button [disabled]="profileForm.invalid" full ion-button color="danger" (click)="updateProfile()">\n            Update Profile\n        </button>\n    </p>\n</ion-content>'/*ion-inline-end:"/usr/src/app/ultramuscle/src/pages/profile/profile.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* ToastController */],

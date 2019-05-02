@@ -1,14 +1,14 @@
 webpackJsonp([6],{
 
-/***/ 528:
+/***/ 526:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WorkoutsPageModule", function() { return WorkoutsPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__workouts__ = __webpack_require__(564);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__workouts__ = __webpack_require__(562);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(296);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -42,14 +42,14 @@ var WorkoutsPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 564:
+/***/ 562:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WorkoutsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_index_services__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_index_services__ = __webpack_require__(159);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -198,7 +198,7 @@ var WorkoutsPage = /** @class */ (function () {
     };
     WorkoutsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: "page-workouts",template:/*ion-inline-start:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\pages\workouts\workouts.html"*/'<ion-header>\n\n  <app-header title="Workouts"></app-header>\n\n</ion-header>\n\n\n\n<ion-content class="workout-bg">\n\n  <title-component *ngIf="workouts" title="Workouts"></title-component>\n\n  <workout-card [workout]="workout" goTo="WorkoutDetailPage" *ngFor="let workout of workouts"></workout-card>\n\n\n\n  <title-component *ngIf="chestWorkouts" title="Chest"></title-component>\n\n  <workout-card [workout]="workout" goTo="WorkoutDetailPage" *ngFor="let workout of chestWorkouts"></workout-card>\n\n\n\n  <title-component *ngIf="armsWorkouts" title="Arms"></title-component>\n\n  <workout-card [workout]="workout" goTo="WorkoutDetailPage" *ngFor="let workout of armsWorkouts"></workout-card>\n\n\n\n  <title-component *ngIf="legsWorkouts" title="Legs"></title-component>\n\n  <workout-card [workout]="workout" goTo="WorkoutDetailPage" *ngFor="let workout of legsWorkouts"></workout-card>\n\n\n\n  <title-component *ngIf="backWorkouts" title="Back"></title-component>\n\n  <workout-card [workout]="workout" goTo="WorkoutDetailPage" *ngFor="let workout of backWorkouts"></workout-card>\n\n\n\n  <title-component *ngIf="shouldersWorkouts" title="Shoulders"></title-component>\n\n  <workout-card [workout]="workout" goTo="WorkoutDetailPage" *ngFor="let workout of shouldersWorkouts"></workout-card>\n\n</ion-content>'/*ion-inline-end:"C:\Users\ctorr\Documents\projects\ultramuscle-app\src\pages\workouts\workouts.html"*/
+            selector: "page-workouts",template:/*ion-inline-start:"/usr/src/app/ultramuscle/src/pages/workouts/workouts.html"*/'<ion-header>\n  <app-header title="Workouts"></app-header>\n</ion-header>\n\n<ion-content class="workout-bg">\n  <title-component *ngIf="workouts" title="Workouts"></title-component>\n  <workout-card [workout]="workout" goTo="WorkoutDetailPage" *ngFor="let workout of workouts"></workout-card>\n\n  <title-component *ngIf="chestWorkouts" title="Chest"></title-component>\n  <workout-card [workout]="workout" goTo="WorkoutDetailPage" *ngFor="let workout of chestWorkouts"></workout-card>\n\n  <title-component *ngIf="armsWorkouts" title="Arms"></title-component>\n  <workout-card [workout]="workout" goTo="WorkoutDetailPage" *ngFor="let workout of armsWorkouts"></workout-card>\n\n  <title-component *ngIf="legsWorkouts" title="Legs"></title-component>\n  <workout-card [workout]="workout" goTo="WorkoutDetailPage" *ngFor="let workout of legsWorkouts"></workout-card>\n\n  <title-component *ngIf="backWorkouts" title="Back"></title-component>\n  <workout-card [workout]="workout" goTo="WorkoutDetailPage" *ngFor="let workout of backWorkouts"></workout-card>\n\n  <title-component *ngIf="shouldersWorkouts" title="Shoulders"></title-component>\n  <workout-card [workout]="workout" goTo="WorkoutDetailPage" *ngFor="let workout of shouldersWorkouts"></workout-card>\n</ion-content>'/*ion-inline-end:"/usr/src/app/ultramuscle/src/pages/workouts/workouts.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__services_index_services__["f" /* WorkoutService */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */],

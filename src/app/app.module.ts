@@ -29,7 +29,7 @@ import { IonicStorageModule } from '@ionic/storage';
     HttpClientModule,
     IonicModule.forRoot(MyApp, {
       scrollPadding: false,
-      scrollAssist: true,
+      scrollAssist: false,
       autoFocusAssist: false,
       mode: 'ios'
     }),
